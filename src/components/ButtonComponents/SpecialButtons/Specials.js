@@ -1,5 +1,5 @@
 import React from "react";
-import { specials } from "/src/data";
+import { specials } from "../../../data";
 
 //import any components needed
 

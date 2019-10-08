@@ -1,5 +1,5 @@
 import React from "react";
-import { operators } from "/src/data";
+import { operators } from "../../../data";
 
 //import any components needed
 
