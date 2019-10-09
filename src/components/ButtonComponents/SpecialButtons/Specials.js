@@ -12,13 +12,13 @@ import SpecialButton from "./SpecialButton";
 export default function Specials() {
   const [specState, setSpecState] = useState(specials);
   // STEP 2 - add the imported data to state
-
+  console.log(specials);
   return (
     <div>
       {
-        specState.map(elem => {
+        specials.map((special, index) => {
           return (
-            < SpecialButton key = {elem} text = {elem}/>
+            < SpecialButton key={index} special={special}/>
           )
         })
       }

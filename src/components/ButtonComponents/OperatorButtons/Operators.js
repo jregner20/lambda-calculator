@@ -11,14 +11,14 @@ import OperatorButton from "./OperatorButton";
        it any props needed by the child component*/
 
 export default function Operators() {
-  const [opState, setOpState] = useState(operators);
+  const [operState, setOpState] = useState(operators);
   // STEP 2 - add the imported data to state
   return (
     <div>
       {
-        opState.map(elem => {
+        operators.map((elem, index) => {
           return (
-            < OperatorButton key = {elem} text = {elem}/>
+            < OperatorButton key = {index} text = {elem}/>
           )
         })
       }

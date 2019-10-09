@@ -19,9 +19,9 @@ export default function Numbers() {
   return (
     <div>
       { 
-        numState.map(elem => {
+        numbers.map((elem, index) => {
           return (
-            < NumberButton key = {elem} text = {elem}/>
+            < NumberButton key = {index} text = {elem}/>
           )
         })
       }
