@@ -20,3 +20,18 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+  .numButton {
+    height: 40px;
+    width: 40px;
+  }
+
+  .operButton {
+    height: 40px;
+    width: 40px;
+  }
+
+  .specButton {
+    height: 40px;
+    width: 40px;
+  }
