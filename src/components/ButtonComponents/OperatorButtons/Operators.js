@@ -12,9 +12,9 @@ const Operators = () => {
   return (
     <div>
       {
-        operators.map((oper) => {
+        operatorState.map((oper, index) => {
           return (
-            <OperatorButton text = {oper}/>
+            <OperatorButton key = {index} button = {oper.char}/>
           )
         })
       }

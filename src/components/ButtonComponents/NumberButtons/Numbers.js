@@ -15,9 +15,9 @@ const Numbers = () => {
   return (
     <div>
       {
-        numbers.map((num) => {
+        numberState.map((num, index) => {
           return (
-            <NumberButton text = {num}/>
+            <NumberButton key = {index} text = {num}/>
           )
         })
       }
